@@ -1,0 +1,25 @@
+name: Content and website CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regenerate source-driven pages
+        run: python3 scripts/build.py
+      - name: Verify generated pages are committed
+        run: git diff --exit-code -- docs/
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+      - name: JavaScript parse check
+        run: node --check docs/assets/app.js

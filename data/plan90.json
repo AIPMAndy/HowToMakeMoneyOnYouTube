@@ -1,0 +1,722 @@
+[
+  {
+    "day": 1,
+    "phase": "启动",
+    "task": "确定频道定位与一个人群",
+    "done_criteria": "完成 templates/CHANNEL_ONEPAGE.md，明确单一核心观众和频道承诺",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 2,
+    "phase": "启动",
+    "task": "研究 10 个直接竞品",
+    "done_criteria": "填写至少 10 行 templates/COMPETITOR_RESEARCH.csv；每行有可打开频道链接",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 3,
+    "phase": "启动",
+    "task": "从评论/搜索提取 20 条需求",
+    "done_criteria": "保存不少于 20 条原始搜索建议/评论及来源 URL",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 4,
+    "phase": "启动",
+    "task": "将选题扩展到 50 条并评分",
+    "done_criteria": "输出不少于 50 题的 CSV 和评分；保留被淘汰题的原因",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 5,
+    "phase": "启动",
+    "task": "写第 1 条长视频脚本",
+    "done_criteria": "保存 6–10 分钟脚本、前 30 秒开头和 5 项事实来源记录",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 6,
+    "phase": "启动",
+    "task": "完成真实屏录与剪辑",
+    "done_criteria": "有自有画面源文件、剪辑成品、字幕核对记录和版权清单",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 7,
+    "phase": "启动",
+    "task": "发布第 1 条长视频 + 2 条 Shorts",
+    "done_criteria": "保存 1 条公开长视频和 2 条 Shorts 链接，手机端逐个核对",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 8,
+    "phase": "启动",
+    "task": "查阅本周用户问题，选定题目",
+    "done_criteria": "列出 3 个本周新增观众问题，逐条保留原始来源并确定 1 条选题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 9,
+    "phase": "启动",
+    "task": "写脚本+核对来源",
+    "done_criteria": "保存当期分镜脚本和至少 3 个需要核验的断言/来源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 10,
+    "phase": "启动",
+    "task": "录屏+配音并保存实际执行证据",
+    "done_criteria": "保留自有录屏原片、旁白文件、项目版本号与试运行输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 11,
+    "phase": "启动",
+    "task": "剪辑+字幕+封面",
+    "done_criteria": "保存横屏 MP4、SRT 和手机缩略图预览、逐项验收表",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 12,
+    "phase": "启动",
+    "task": "发布长视频并检查链接",
+    "done_criteria": "保存公开长视频链接、发布时间和手机端可打开截图",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 13,
+    "phase": "启动",
+    "task": "制作与发布 2 条独立 Shorts",
+    "done_criteria": "保存 2 条独立价值的竖屏视频链接与相关长视频连接验证",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 14,
+    "phase": "启动",
+    "task": "7 天数据复盘+下一轮假设",
+    "done_criteria": "保存第 1 周分析表（没有数据的字段留空），写一条可检验假设",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 15,
+    "phase": "启动",
+    "task": "查阅本周用户问题，选定题目",
+    "done_criteria": "列出 3 个本周新增观众问题，逐条保留原始来源并确定 1 条选题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 16,
+    "phase": "启动",
+    "task": "写脚本+核对来源",
+    "done_criteria": "保存当期分镜脚本和至少 3 个需要核验的断言/来源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 17,
+    "phase": "启动",
+    "task": "录屏+配音并保存实际执行证据",
+    "done_criteria": "保留自有录屏原片、旁白文件、项目版本号与试运行输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 18,
+    "phase": "启动",
+    "task": "剪辑+字幕+封面",
+    "done_criteria": "保存横屏 MP4、SRT 和手机缩略图预览、逐项验收表",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 19,
+    "phase": "启动",
+    "task": "发布长视频并检查链接",
+    "done_criteria": "保存公开长视频链接、发布时间和手机端可打开截图",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 20,
+    "phase": "启动",
+    "task": "制作与发布 2 条独立 Shorts",
+    "done_criteria": "保存 2 条独立价值的竖屏视频链接与相关长视频连接验证",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 21,
+    "phase": "启动",
+    "task": "7 天数据复盘+下一轮假设",
+    "done_criteria": "保存第 2 周分析表与下一周只改变的一个变量",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 22,
+    "phase": "启动",
+    "task": "查阅本周用户问题，选定题目",
+    "done_criteria": "列出 3 个本周新增观众问题，逐条保留原始来源并确定 1 条选题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 23,
+    "phase": "启动",
+    "task": "写脚本+核对来源",
+    "done_criteria": "保存当期分镜脚本和至少 3 个需要核验的断言/来源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 24,
+    "phase": "启动",
+    "task": "录屏+配音并保存实际执行证据",
+    "done_criteria": "保留自有录屏原片、旁白文件、项目版本号与试运行输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 25,
+    "phase": "启动",
+    "task": "剪辑+字幕+封面",
+    "done_criteria": "保存横屏 MP4、SRT 和手机缩略图预览、逐项验收表",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 26,
+    "phase": "启动",
+    "task": "发布长视频并检查链接",
+    "done_criteria": "保存公开长视频链接、发布时间和手机端可打开截图",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 27,
+    "phase": "启动",
+    "task": "制作与发布 2 条独立 Shorts",
+    "done_criteria": "保存 2 条独立价值的竖屏视频链接与相关长视频连接验证",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 28,
+    "phase": "启动",
+    "task": "7 天数据复盘+下一轮假设",
+    "done_criteria": "保存第 3 周分析表并评估 3 个主题是否值得继续",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 29,
+    "phase": "启动",
+    "task": "查阅本周用户问题，选定题目",
+    "done_criteria": "保存第 4 条长视频脚本及所有未完成制作阻碍，写第 30 天继续或转向的判断",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 30,
+    "phase": "启动",
+    "task": "写脚本+核对来源",
+    "done_criteria": "保存第 30 天复盘：实际作品总数、时长、观众问题、成本、下一月选择",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 31,
+    "phase": "放大",
+    "task": "复核本月高互动问题",
+    "done_criteria": "至少记录 10 条新增观众问题，标记是否值得做系列",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 32,
+    "phase": "放大",
+    "task": "从现有爆点设计系列选题",
+    "done_criteria": "写 3 条同人群但不重复的系列题，每条有不同结果",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 33,
+    "phase": "放大",
+    "task": "补充可演示证据并保存实际执行证据",
+    "done_criteria": "保存对应版本的自有演示素材、测试输入与输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 34,
+    "phase": "放大",
+    "task": "拍摄系列长视频并保存实际执行证据",
+    "done_criteria": "保存带脚本对照的横屏成片、素材权限清单",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 35,
+    "phase": "放大",
+    "task": "公开发布+补 GitHub 教程",
+    "done_criteria": "保存公开视频链接与更新的 GitHub 操作指南地址",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 36,
+    "phase": "放大",
+    "task": "拆分 Shorts+Threads/X",
+    "done_criteria": "发布至少一条自洽 Short、一条对应平台内容，记录去向",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 37,
+    "phase": "放大",
+    "task": "分析来源与有效询盘",
+    "done_criteria": "记录 Studio 流量来源、资源点击、合格询盘；缺失字段留空",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 38,
+    "phase": "放大",
+    "task": "复核本月高互动问题",
+    "done_criteria": "至少记录 10 条新增观众问题，标记是否值得做系列",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 39,
+    "phase": "放大",
+    "task": "从现有爆点设计系列选题",
+    "done_criteria": "写 3 条同人群但不重复的系列题，每条有不同结果",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 40,
+    "phase": "放大",
+    "task": "补充可演示证据并保存实际执行证据",
+    "done_criteria": "保存对应版本的自有演示素材、测试输入与输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 41,
+    "phase": "放大",
+    "task": "拍摄系列长视频并保存实际执行证据",
+    "done_criteria": "保存带脚本对照的横屏成片、素材权限清单",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 42,
+    "phase": "放大",
+    "task": "公开发布+补 GitHub 教程",
+    "done_criteria": "保存公开视频链接与更新的 GitHub 操作指南地址",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 43,
+    "phase": "放大",
+    "task": "拆分 Shorts+Threads/X",
+    "done_criteria": "发布至少一条自洽 Short、一条对应平台内容，记录去向",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 44,
+    "phase": "放大",
+    "task": "分析来源与有效询盘",
+    "done_criteria": "记录 Studio 流量来源、资源点击、合格询盘；缺失字段留空",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 45,
+    "phase": "放大",
+    "task": "复核本月高互动问题",
+    "done_criteria": "至少记录 10 条新增观众问题，标记是否值得做系列",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 46,
+    "phase": "放大",
+    "task": "从现有爆点设计系列选题",
+    "done_criteria": "写 3 条同人群但不重复的系列题，每条有不同结果",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 47,
+    "phase": "放大",
+    "task": "补充可演示证据并保存实际执行证据",
+    "done_criteria": "保存对应版本的自有演示素材、测试输入与输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 48,
+    "phase": "放大",
+    "task": "拍摄系列长视频并保存实际执行证据",
+    "done_criteria": "保存带脚本对照的横屏成片、素材权限清单",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 49,
+    "phase": "放大",
+    "task": "公开发布+补 GitHub 教程",
+    "done_criteria": "保存公开视频链接与更新的 GitHub 操作指南地址",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 50,
+    "phase": "放大",
+    "task": "拆分 Shorts+Threads/X",
+    "done_criteria": "发布至少一条自洽 Short、一条对应平台内容，记录去向",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 51,
+    "phase": "放大",
+    "task": "分析来源与有效询盘",
+    "done_criteria": "记录 Studio 流量来源、资源点击、合格询盘；缺失字段留空",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 52,
+    "phase": "放大",
+    "task": "复核本月高互动问题",
+    "done_criteria": "至少记录 10 条新增观众问题，标记是否值得做系列",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 53,
+    "phase": "放大",
+    "task": "从现有爆点设计系列选题",
+    "done_criteria": "写 3 条同人群但不重复的系列题，每条有不同结果",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 54,
+    "phase": "放大",
+    "task": "补充可演示证据并保存实际执行证据",
+    "done_criteria": "保存对应版本的自有演示素材、测试输入与输出",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 55,
+    "phase": "放大",
+    "task": "拍摄系列长视频并保存实际执行证据",
+    "done_criteria": "保存带脚本对照的横屏成片、素材权限清单",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 56,
+    "phase": "放大",
+    "task": "公开发布+补 GitHub 教程",
+    "done_criteria": "保存公开视频链接与更新的 GitHub 操作指南地址",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 57,
+    "phase": "放大",
+    "task": "拆分 Shorts+Threads/X",
+    "done_criteria": "发布至少一条自洽 Short、一条对应平台内容，记录去向",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 58,
+    "phase": "放大",
+    "task": "分析来源与有效询盘",
+    "done_criteria": "记录 Studio 流量来源、资源点击、合格询盘；缺失字段留空",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 59,
+    "phase": "放大",
+    "task": "复核本月高互动问题",
+    "done_criteria": "至少记录 10 条新增观众问题，标记是否值得做系列",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 60,
+    "phase": "放大",
+    "task": "从现有爆点设计系列选题",
+    "done_criteria": "写 3 条同人群但不重复的系列题，每条有不同结果",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 61,
+    "phase": "变现验证",
+    "task": "根据高价值访客聚焦一个栏目",
+    "done_criteria": "检查至少 2 个主题的观众反馈和有效行为，留下选择依据",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 62,
+    "phase": "变现验证",
+    "task": "实验新封面/标题组合",
+    "done_criteria": "保存 2–3 个实际不同的版本、变量与实验时段",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 63,
+    "phase": "变现验证",
+    "task": "改进视频前 30 秒",
+    "done_criteria": "交付包含结果镜头的 30 秒新开场并写明具体修改",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 64,
+    "phase": "变现验证",
+    "task": "扩大最优子题并录制",
+    "done_criteria": "产出可公开验证的实测视频，非原片复制换标题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 65,
+    "phase": "变现验证",
+    "task": "发布并关联推荐视频",
+    "done_criteria": "保存长视频公开链接、结尾推荐和手机端入口检查",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 66,
+    "phase": "变现验证",
+    "task": "发布 Shorts 和免费资源",
+    "done_criteria": "保存 Short URL、站内相关长视频入口与可打开免费资源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 67,
+    "phase": "变现验证",
+    "task": "核对来源、观看与实际询盘",
+    "done_criteria": "填写时间窗一致的数据表与真实询盘条目（没有则写 0，未知则留空）",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 68,
+    "phase": "变现验证",
+    "task": "根据高价值访客聚焦一个栏目",
+    "done_criteria": "检查至少 2 个主题的观众反馈和有效行为，留下选择依据",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 69,
+    "phase": "变现验证",
+    "task": "实验新封面/标题组合",
+    "done_criteria": "保存 2–3 个实际不同的版本、变量与实验时段",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 70,
+    "phase": "变现验证",
+    "task": "改进视频前 30 秒",
+    "done_criteria": "交付包含结果镜头的 30 秒新开场并写明具体修改",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 71,
+    "phase": "变现验证",
+    "task": "扩大最优子题并录制",
+    "done_criteria": "产出可公开验证的实测视频，非原片复制换标题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 72,
+    "phase": "变现验证",
+    "task": "发布并关联推荐视频",
+    "done_criteria": "保存长视频公开链接、结尾推荐和手机端入口检查",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 73,
+    "phase": "变现验证",
+    "task": "发布 Shorts 和免费资源",
+    "done_criteria": "保存 Short URL、站内相关长视频入口与可打开免费资源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 74,
+    "phase": "变现验证",
+    "task": "核对来源、观看与实际询盘",
+    "done_criteria": "填写时间窗一致的数据表与真实询盘条目（没有则写 0，未知则留空）",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 75,
+    "phase": "变现验证",
+    "task": "根据高价值访客聚焦一个栏目",
+    "done_criteria": "检查至少 2 个主题的观众反馈和有效行为，留下选择依据",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 76,
+    "phase": "变现验证",
+    "task": "实验新封面/标题组合",
+    "done_criteria": "保存 2–3 个实际不同的版本、变量与实验时段",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 77,
+    "phase": "变现验证",
+    "task": "改进视频前 30 秒",
+    "done_criteria": "交付包含结果镜头的 30 秒新开场并写明具体修改",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 78,
+    "phase": "变现验证",
+    "task": "扩大最优子题并录制",
+    "done_criteria": "产出可公开验证的实测视频，非原片复制换标题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 79,
+    "phase": "变现验证",
+    "task": "发布并关联推荐视频",
+    "done_criteria": "保存长视频公开链接、结尾推荐和手机端入口检查",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 80,
+    "phase": "变现验证",
+    "task": "发布 Shorts 和免费资源",
+    "done_criteria": "保存 Short URL、站内相关长视频入口与可打开免费资源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 81,
+    "phase": "变现验证",
+    "task": "核对来源、观看与实际询盘",
+    "done_criteria": "填写时间窗一致的数据表与真实询盘条目（没有则写 0，未知则留空）",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 82,
+    "phase": "变现验证",
+    "task": "根据高价值访客聚焦一个栏目",
+    "done_criteria": "检查至少 2 个主题的观众反馈和有效行为，留下选择依据",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 83,
+    "phase": "变现验证",
+    "task": "实验新封面/标题组合",
+    "done_criteria": "保存 2–3 个实际不同的版本、变量与实验时段",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 84,
+    "phase": "变现验证",
+    "task": "改进视频前 30 秒",
+    "done_criteria": "交付包含结果镜头的 30 秒新开场并写明具体修改",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 85,
+    "phase": "变现验证",
+    "task": "扩大最优子题并录制",
+    "done_criteria": "产出可公开验证的实测视频，非原片复制换标题",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 86,
+    "phase": "变现验证",
+    "task": "发布并关联推荐视频",
+    "done_criteria": "保存长视频公开链接、结尾推荐和手机端入口检查",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 87,
+    "phase": "变现验证",
+    "task": "发布 Shorts 和免费资源",
+    "done_criteria": "保存 Short URL、站内相关长视频入口与可打开免费资源",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 88,
+    "phase": "变现验证",
+    "task": "核对来源、观看与实际询盘",
+    "done_criteria": "填写时间窗一致的数据表与真实询盘条目（没有则写 0，未知则留空）",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 89,
+    "phase": "变现验证",
+    "task": "90 天数据核对、内容目录与来源审计",
+    "done_criteria": "导出 90 天作品清单、视频/订单原始台账、证据索引，差异逐条标注",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  },
+  {
+    "day": 90,
+    "phase": "变现验证",
+    "task": "提交 90 天决策备忘录和下一季四周计划",
+    "done_criteria": "提交《90 天复盘》：所有公开作品链接、观看/询盘/实收、工时、保留/砍掉/加码决策",
+    "evidence_type": "url/file/screenshot/data",
+    "gate": "仅保存可复验产物才算完成；不得拿阅读记录代替作品。"
+  }
+]

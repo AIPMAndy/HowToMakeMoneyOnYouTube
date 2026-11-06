@@ -1,0 +1,19 @@
+{
+  "title": "示例：免费图片处理真实演示",
+  "viewer_result": "观众看完后能亲自处理一张图片",
+  "owned_source_video": "source.mp4",
+  "script": "script.md",
+  "thumbnail": "thumbnail.png",
+  "description": "description.md",
+  "source_claims": [{"claim":"软件支持什么功能", "source":"https://github.com/AIPMAndy/FreePhoto", "checked_at":"2026-11-05"}],
+  "review": {
+    "rights_checked": false,
+    "screen_privacy_checked": false,
+    "claims_reviewed": false,
+    "audio_reviewed": false,
+    "thumbnail_true": false,
+    "links_tested": false,
+    "ai_disclosure_reviewed": false,
+    "paid_promotion_reviewed": false
+  }
+}

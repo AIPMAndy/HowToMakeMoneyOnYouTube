@@ -1,0 +1,57 @@
+[
+  {
+    "name": "MagnatesMedia",
+    "url": "https://www.youtube.com/@MagnatesMedia",
+    "primary_source": "https://magnatesmedia.com/",
+    "format": "商业纪录片：高密度旁白、原创剪辑、悬念结构",
+    "observed": "频道官方描述明确定位为商业与财富迷你纪录片；创始人在自有官网披露从不露脸纪录片发展为七位数业务（自述，未做第三方审计）。",
+    "reusable": "每集一个核心冲突、明确故事结构、用画面而不是露脸作为叙事载体。",
+    "limits": "自述成绩不能推广为普遍收益；制作成本和团队经验未知。",
+    "checked_at": "2026-11-05",
+    "claim_type": "创作者自述+频道公开信息"
+  },
+  {
+    "name": "PolyMatter",
+    "url": "https://www.youtube.com/@PolyMatter",
+    "primary_source": "https://polymatter.yt/",
+    "format": "图表、地图和原创解释型视频",
+    "observed": "官网列出视频、制作过程、Nebula 内容分发，并明确封面由创作者自行设计。",
+    "reusable": "不露脸也能把抽象商业/技术主题讲清楚；包装视觉语言统一。",
+    "limits": "官网没有公开可审计的频道广告收入数据。",
+    "checked_at": "2026-11-05",
+    "claim_type": "官方网站公开信息"
+  },
+  {
+    "name": "Wendover Productions",
+    "url": "https://www.youtube.com/@Wendoverproductions",
+    "primary_source": "https://www.wendoverproductions.com/",
+    "format": "旅行、经济、地理、营销等知识解释",
+    "observed": "官方网站将自己定位为解释世界运行机制的频道，官网内容围绕复杂问题的可视化解析。",
+    "reusable": "围绕一个有意思的问题构建可理解的系统解释，而不是追逐碎片信息。",
+    "limits": "不能仅凭视频存在估算收入或获客转化。",
+    "checked_at": "2026-11-05",
+    "claim_type": "官方网站公开信息"
+  },
+  {
+    "name": "How Money Works",
+    "url": "https://www.youtube.com/@HowMoneyWorks",
+    "primary_source": "https://www.youtube.com/watch?v=4X2droxtGbQ",
+    "format": "旁白+商业/金融解释，带赞助与社群入口",
+    "observed": "该频道公开视频说明包含 Skillshare 赞助链接、商店、新闻通讯和商业合作邮箱，证明内容可组合多种收入入口。",
+    "reusable": "免费知识内容→可关联的工具/赞助/自有产品；分开考察观看量与商业目标。",
+    "limits": "该视频说明不等于整个频道当期收入审计。",
+    "checked_at": "2026-11-05",
+    "claim_type": "公开视频说明观察"
+  },
+  {
+    "name": "AI 酋长 Andy（待运营验证）",
+    "url": "https://github.com/AIPMAndy",
+    "primary_source": "https://github.com/AIPMAndy/HowToBeAnAICreator",
+    "format": "原创 AI 屏幕实测+开源工具+实战案例",
+    "observed": "已有公开的 AI 创作者教程仓库；YouTube 新频道的观看与商业结果尚未验证。",
+    "reusable": "把已有工具/案例先变成 6–10 分钟真实录屏讲解，再用 Shorts、Threads、X 引导观看。",
+    "limits": "本案例是实验设计，不是已达成的 YouTube 商业成绩。",
+    "checked_at": "2026-11-05",
+    "claim_type": "公开仓库+拟议实验"
+  }
+]

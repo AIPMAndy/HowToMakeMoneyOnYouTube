@@ -1,0 +1,45 @@
+# HowToMakeMoneyOnYouTube
+
+Free Chinese faceless YouTube tutorial by AI 酋长 Andy.
+Home: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/
+Source: https://github.com/AIPMAndy/HowToMakeMoneyOnYouTube
+
+Guides:
+- 先看这页：一条视频从想法到收入: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/00-start/
+- 赛道选择：先找到会付费的人: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/01-position/
+- 竞品拆解：拆观众需求而不是抄脚本: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/02-competitors/
+- 选题库：用问题、评论和搜索意图找 50 个题: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/03-demand/
+- 事实与来源：每一个收益数字都可追溯: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/04-evidence/
+- 标题设计：先写 10 个，再开剪: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/05-titles/
+- 脚本：前 30 秒先把最重要的结果亮出来: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/06-script/
+- 不露脸录制：屏幕即主角: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/07-record/
+- 剪辑：只留推动理解的画面: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/08-edit/
+- 封面：手机尺寸一眼看懂冲突: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/09-thumbnail/
+- 上传发布：每个字段都有任务: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/10-publish/
+- 一份内容的四种交付：YouTube + Threads + X + GitHub: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/11-distribution/
+- 看懂数据：从点击到留存再到成交: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/12-analytics/
+- 实验设计：一次只验证一个关键假设: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/13-iterate/
+- 收入结构：YouTube 广告只是第五优先级: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/14-money/
+- YouTube 变现资格：2026 vs 2027: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/15-ypp/
+- 原创与版权：不露脸，不等于搬运: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/16-copyright/
+- Andy 专属起号：20 个现有资产转换成视频: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/17-andy/
+- 三轮对抗审核：假、难、卖不掉: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/18-redteam/
+- 90 天计划：不是爆款愿望，是可复现实验: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/19-90day/
+- 声音决定专业感：不露脸也能有辨识度: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/20-audio/
+- 不露脸分镜：每 8–15 秒都有信息: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/21-storyboard/
+- 前 30 秒：让观众立刻知道值不值得看: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/22-hook/
+- YouTube 搜索选题：在观众提问处找流量: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/23-search/
+- 包装实验：标题与封面如何做 A/B: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/24-packaging/
+- Shorts 不做废料剪辑：短长内容协同: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/25-shorts/
+- 数据复盘：诊断漏斗，而不是发完等算法: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/26-analytics/
+- 从公开视频到有意向用户：设计免费入口: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/27-lead-magnet/
+- 联盟和赞助：怎么谈，不靠瞎报价格: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/28-sponsor/
+- 收入模型：不要把播放量当利润: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/29-economics/
+- 华语出海：台湾、香港、新加坡、马来西亚怎么分发: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/30-locale/
+- 把剪辑交出去之前：标准化验收: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/31-delegate/
+- 可持续内容资产：教程、案例与开源互相增强: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/32-content-moat/
+- 第一笔真实收入：先拿到可归因的订单: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/33-first-sale/
+- 对抗式审核：红队逐帧找错误，蓝队复修: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/34-adversarial/
+- 第 90 天要做的决策：扩大、重定位还是停止: https://aipmandy.github.io/HowToMakeMoneyOnYouTube/guides/35-weekly-decision/
+
+All revenue claims require primary sources; no guaranteed earnings.

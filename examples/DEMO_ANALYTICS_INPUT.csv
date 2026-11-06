@@ -1,0 +1,3 @@
+video_id,format,views,impressions,ctr_pct,video_duration_sec,avg_view_duration_sec,retention_30s_pct,resource_clicks,qualified_leads,paid_orders,net_revenue_cny,production_hours,traffic_source,time_window
+DEMO-VIDEO-DO-NOT-CLAIM-REAL,long,260,2200,3.5,420,135,52,24,1,0,0,7,search,first7d
+DEMO-SHORT-DO-NOT-CLAIM-REAL,short,1800,,,44,19,65,0,0,0,0,2,shorts_feed,first7d
