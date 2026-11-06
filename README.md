@@ -7,9 +7,9 @@
 
 [在线实战网站](https://aipmandy.github.io/HowToMakeMoneyOnYouTube/) · [作者 GitHub](https://github.com/AIPMAndy) · [个人官网](https://metaver.vip/) · [知识库](https://kb.metaver.vip/)
 
-**联系作者 AI 酋长 Andy**：个人微信 **`AIPMAndy`**（打开微信搜索添加，备注「YouTube 教程」）｜个人官网 **https://metaver.vip/**。网站首页提供微信号一键复制和官网直达入口。
+> **发布状态**：本项目当前是可直接上传的仓库源文件；上面的 Pages 地址是预期部署地址，不代表已部署完成。若在其他账号 fork，修改 `SITE_URL`、`docs/index.html` 中的 canonical 和 OG URL 后重新构建。
 
-> **发布状态**：GitHub Pages 已启用并成功部署；后续版本以 GitHub Actions 的结果为准。若在其他账号 fork，修改 `SITE_URL`、`docs/index.html` 中的 canonical 和 OG URL 后重新构建。
+**联系作者**：个人微信 `AIPMAndy`（微信内搜索添加） · 个人官网 https://metaver.vip/ 。网站首页提供快捷入口。
 
 ## 你能在这里做成什么
 

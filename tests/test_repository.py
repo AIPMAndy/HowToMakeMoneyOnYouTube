@@ -78,18 +78,19 @@ class RepositoryDataTests(unittest.TestCase):
         for risk in ['eval(','innerHTML','= Function(','document.write(']:
             self.assertNotIn(risk,js)
 
-    def test_public_author_contact_across_site(self):
+    def test_youtube_theme_and_contact(self):
         home=(SITE/'index.html').read_text(encoding='utf-8')
-        script=(SITE/'assets'/'app.js').read_text(encoding='utf-8')
-        builder=(ROOT/'scripts'/'build.py').read_text(encoding='utf-8')
-        for value in ['https://metaver.vip/', 'AIPMAndy', 'id="contact"', 'data-copy-wechat="AIPMAndy"']:
-            self.assertIn(value, home)
-        self.assertIn('initContact()', script)
-        self.assertIn('AIPMAndy', builder)
-        for guide in self.guides:
-            page=(SITE/'guides'/guide['id']/'index.html').read_text(encoding='utf-8')
-            self.assertIn('AIPMAndy', page, guide['id'])
-            self.assertIn('https://metaver.vip/', page, guide['id'])
+        theme=(SITE/'assets'/'youtube-theme.css').read_text(encoding='utf-8')
+        site_js=(SITE/'assets'/'site.js').read_text(encoding='utf-8')
+        for marker in ['id="contact"','data-copy-wechat="AIPMAndy"','https://metaver.vip/','id="menuToggle"','id="siteNav"','youtube-theme.css','site.js']:
+            self.assertIn(marker,home)
+        self.assertIn('mobile-menu-toggle',theme)
+        self.assertIn('navigator.clipboard',site_js)
+        for g in self.guides:
+            page=(SITE/'guides'/g['id']/'index.html').read_text(encoding='utf-8')
+            self.assertIn('AIPMAndy',page)
+            self.assertIn('https://metaver.vip/',page)
+            self.assertIn('youtube-theme.css',page)
 
     def test_sitemap_urls_and_count(self):
         xml=ET.parse(SITE/'sitemap.xml')

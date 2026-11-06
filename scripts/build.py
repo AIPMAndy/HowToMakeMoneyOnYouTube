@@ -31,17 +31,16 @@ def guide_html(g):
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(g['title'])} · YouTube 不露脸赚钱教程</title>
 <meta name="description" content="{safe(g['overview'][:140])}">
-<link rel="canonical" href="{safe(link(g['id']))}"><link rel="stylesheet" href="{path}">
+<link rel="canonical" href="{safe(link(g['id']))}"><link rel="stylesheet" href="{path}"><link rel="stylesheet" href="../../assets/youtube-theme.css">
 <meta property="og:type" content="article"><meta property="og:title" content="{safe(g['title'])}"><meta property="og:description" content="{safe(g['overview'][:140])}">
 <script type="application/ld+json">{jsonld}</script></head><body class="article-body">
-<header class="site-header"><a class="brand" href="../../index.html">✳ <strong>AI 酋长 Andy</strong><span class="brand-dot">·</span> 开源 YouTube 教程</a><a class="back" href="../../index.html#guides">返回全部指南 ↗</a></header>
+<header class="site-header"><a class="brand" href="../../index.html"><span class="brand-mark">▶</span><strong>AI 酋长 Andy</strong><span class="brand-dot">/</span> YouTube 开源教程</a><a class="back" href="../../index.html#guides">返回全部指南 ↗</a></header>
 <main class="article-shell"><p class="eyebrow">{safe(g['stage'])} · GUIDE {g['index']+1:02d}</p><h1>{safe(g['title'])}</h1><p class="article-lead">{safe(g['overview'])}</p>
 <section class="article-panel"><h2>跟着做：逐步完成</h2><ol class="article-checks">{steps}</ol><p class="hint">这些勾选仅在当前页面有效；完整进度请在主页勾选并导出备份。</p></section>
 {example}
 <section class="article-panel"><h2>本章交付物</h2><p>{safe(g['deliverable'])}</p><h2>关键判断</h2><p>{safe(g['insight'])}</p></section>
 <section class="article-panel"><h2>下一步</h2><p>回到主站打开 90 天任务表，完成本章后记录证据，而不是只做阅读打卡。</p><a class="button-primary" href="../../index.html#plan">继续执行 90 天计划 ↗</a></section>
-<section class="article-panel article-contact"><h2>联系 AI 酋长 Andy</h2><p>个人微信：<strong>AIPMAndy</strong>（请在微信搜索添加，备注「YouTube 教程」）</p><p>个人官网：<a href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">metaver.vip ↗</a></p></section>
-<footer class="article-foot">免费开源 · AI 酋长 Andy · <a href="https://github.com/AIPMAndy">GitHub</a> · <a href="https://metaver.vip/">个人官网</a> · 个人微信 AIPMAndy</footer></main></body></html>'''
+<section class="article-panel article-contact"><h2>联系 AI 酋长 Andy</h2><p>个人微信：<strong>AIPMAndy</strong>（在微信搜索添加，备注「YouTube 教程」）</p><p>个人官网：<a href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">metaver.vip ↗</a></p></section><footer class="article-foot">免费开源 · AI 酋长 Andy · <a href="https://github.com/AIPMAndy">GitHub</a> · <a href="https://metaver.vip/">个人官网</a> · 个人微信 AIPMAndy</footer></main></body></html>'''
 
 def build():
     guides=load('guides.json'); cases=load('cases.json'); ideas=load('ideas.json'); plan=load('plan90.json'); sources=load('sources.json')
@@ -58,7 +57,7 @@ def build():
     x.append('</urlset>')
     (SITE/'sitemap.xml').write_text('\n'.join(x)+'\n',encoding='utf-8')
     (SITE/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n',encoding='utf-8')
-    (SITE/'llms.txt').write_text(f'# HowToMakeMoneyOnYouTube\n\nFree Chinese faceless YouTube tutorial by AI 酋长 Andy.\nHome: {SITE_URL}\nSource: https://github.com/AIPMAndy/HowToMakeMoneyOnYouTube\nPersonal website: https://metaver.vip/\nPersonal WeChat (search in WeChat): AIPMAndy\n\nGuides:\n'+'\n'.join(f'- {g["title"]}: {link(g["id"])}' for g in guides)+'\n\nAll revenue claims require primary sources; no guaranteed earnings.\n',encoding='utf-8')
+    (SITE/'llms.txt').write_text(f'# HowToMakeMoneyOnYouTube\n\nFree Chinese faceless YouTube tutorial by AI 酋长 Andy.\nHome: {SITE_URL}\nSource: https://github.com/AIPMAndy/HowToMakeMoneyOnYouTube\nPersonal website: https://metaver.vip/\nPersonal WeChat: AIPMAndy\n\nGuides:\n'+'\n'.join(f'- {g["title"]}: {link(g["id"])}' for g in guides)+'\n\nAll revenue claims require primary sources; no guaranteed earnings.\n',encoding='utf-8')
     print(f'Generated {len(guides)} searchable guides, {len(plan)} plan days, {len(urls)} URLs')
 
 if __name__=='__main__': build()
