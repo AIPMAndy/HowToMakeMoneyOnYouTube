@@ -19,3 +19,5 @@ python3 -m unittest discover -s tests -v
 **Licenses**: MIT for code, CC BY 4.0 for original explanatory content. Third-party media is not licensed by this project.
 
 **Version 2 highlights**: A 12-week creator strategy tailored to Andy, a full FreePhoto video shot list, structured revenue attribution templates, 90 distinct day-specific deliverable checks, Python data-validation tests, and 36 SEO-readable guide URLs. The project does not claim any real YouTube revenue or guarantees of virality.
+
+**Contact Andy**: Personal WeChat ID **`AIPMAndy`** (search this ID in WeChat); personal website **https://metaver.vip/**. Both are accessible from the website header, hero, contact section, and individual tutorial pages.

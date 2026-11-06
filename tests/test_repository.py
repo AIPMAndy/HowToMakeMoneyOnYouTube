@@ -78,6 +78,19 @@ class RepositoryDataTests(unittest.TestCase):
         for risk in ['eval(','innerHTML','= Function(','document.write(']:
             self.assertNotIn(risk,js)
 
+    def test_public_author_contact_across_site(self):
+        home=(SITE/'index.html').read_text(encoding='utf-8')
+        script=(SITE/'assets'/'app.js').read_text(encoding='utf-8')
+        builder=(ROOT/'scripts'/'build.py').read_text(encoding='utf-8')
+        for value in ['https://metaver.vip/', 'AIPMAndy', 'id="contact"', 'data-copy-wechat="AIPMAndy"']:
+            self.assertIn(value, home)
+        self.assertIn('initContact()', script)
+        self.assertIn('AIPMAndy', builder)
+        for guide in self.guides:
+            page=(SITE/'guides'/guide['id']/'index.html').read_text(encoding='utf-8')
+            self.assertIn('AIPMAndy', page, guide['id'])
+            self.assertIn('https://metaver.vip/', page, guide['id'])
+
     def test_sitemap_urls_and_count(self):
         xml=ET.parse(SITE/'sitemap.xml')
         ns={'m':'http://www.sitemaps.org/schemas/sitemap/0.9'}

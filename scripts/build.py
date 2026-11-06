@@ -40,7 +40,8 @@ def guide_html(g):
 {example}
 <section class="article-panel"><h2>本章交付物</h2><p>{safe(g['deliverable'])}</p><h2>关键判断</h2><p>{safe(g['insight'])}</p></section>
 <section class="article-panel"><h2>下一步</h2><p>回到主站打开 90 天任务表，完成本章后记录证据，而不是只做阅读打卡。</p><a class="button-primary" href="../../index.html#plan">继续执行 90 天计划 ↗</a></section>
-<footer class="article-foot">免费开源 · AI 酋长 Andy · <a href="https://github.com/AIPMAndy">GitHub</a> · <a href="https://metaver.vip/">官网</a></footer></main></body></html>'''
+<section class="article-panel article-contact"><h2>联系 AI 酋长 Andy</h2><p>个人微信：<strong>AIPMAndy</strong>（请在微信搜索添加，备注「YouTube 教程」）</p><p>个人官网：<a href="https://metaver.vip/" target="_blank" rel="noopener noreferrer">metaver.vip ↗</a></p></section>
+<footer class="article-foot">免费开源 · AI 酋长 Andy · <a href="https://github.com/AIPMAndy">GitHub</a> · <a href="https://metaver.vip/">个人官网</a> · 个人微信 AIPMAndy</footer></main></body></html>'''
 
 def build():
     guides=load('guides.json'); cases=load('cases.json'); ideas=load('ideas.json'); plan=load('plan90.json'); sources=load('sources.json')
@@ -57,7 +58,7 @@ def build():
     x.append('</urlset>')
     (SITE/'sitemap.xml').write_text('\n'.join(x)+'\n',encoding='utf-8')
     (SITE/'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n',encoding='utf-8')
-    (SITE/'llms.txt').write_text(f'# HowToMakeMoneyOnYouTube\n\nFree Chinese faceless YouTube tutorial by AI 酋长 Andy.\nHome: {SITE_URL}\nSource: https://github.com/AIPMAndy/HowToMakeMoneyOnYouTube\n\nGuides:\n'+'\n'.join(f'- {g["title"]}: {link(g["id"])}' for g in guides)+'\n\nAll revenue claims require primary sources; no guaranteed earnings.\n',encoding='utf-8')
+    (SITE/'llms.txt').write_text(f'# HowToMakeMoneyOnYouTube\n\nFree Chinese faceless YouTube tutorial by AI 酋长 Andy.\nHome: {SITE_URL}\nSource: https://github.com/AIPMAndy/HowToMakeMoneyOnYouTube\nPersonal website: https://metaver.vip/\nPersonal WeChat (search in WeChat): AIPMAndy\n\nGuides:\n'+'\n'.join(f'- {g["title"]}: {link(g["id"])}' for g in guides)+'\n\nAll revenue claims require primary sources; no guaranteed earnings.\n',encoding='utf-8')
     print(f'Generated {len(guides)} searchable guides, {len(plan)} plan days, {len(urls)} URLs')
 
 if __name__=='__main__': build()

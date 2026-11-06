@@ -65,6 +65,34 @@ $('econHeadline').textContent='该情景的数学结果';
 const text=el('div');text.append(el('p',null,`${fx(views)} 次观看 → ${fx(clicks)} 次资源点击 → ${fx(leads)} 次合格咨询 → ${fx(orders)} 笔期望订单`),el('p',null,`模拟实收：¥${fx(gross)}；模拟成本：¥${fx(cost)}`));const n=el('p');n.append('模拟差额：',el('strong',null,`¥${fx(net)}`));text.append(n);$('econEquation').replaceChildren(text);
 $('econNote').textContent='期望订单可以为小数，表示模型平均值，不是实际订单数量。不同视频客群、外链位置与交付成本可能大幅改变结果。';});
 }
-function bootstrap(){if(!data.guides.length){document.body.append(el('p',null,'内容尚未构建，请运行 python scripts/build.py'));return;}initGuides();initScore();initClinic();initEconomy();initPlan();initCases();initIdeas();initBackup();}
+
+function initContact(){
+  const buttons=document.querySelectorAll('[data-copy-wechat]');
+  for(const button of buttons){
+    const original=button.textContent;
+    button.addEventListener('click',async()=>{
+      const id=button.getAttribute('data-copy-wechat')||'AIPMAndy';
+      let copied=false;
+      try{
+        if(navigator.clipboard&&navigator.clipboard.writeText){
+          await navigator.clipboard.writeText(id);copied=true;
+        }
+      }catch{}
+      if(!copied){
+        const input=document.createElement('textarea');
+        input.value=id;input.setAttribute('readonly','');input.style.position='fixed';input.style.opacity='0';
+        document.body.append(input);input.select();
+        try{copied=document.execCommand('copy')}catch{}
+        input.remove();
+      }
+      button.textContent=copied?'已复制：'+id:'微信号：'+id+'（请手动复制）';
+      const status=$('contactCopyStatus');
+      if(status)status.textContent=copied?'微信号已复制。在微信搜索 AIPMAndy 添加即可。':'自动复制不可用，请手动复制微信号 AIPMAndy。';
+      setTimeout(()=>{button.textContent=original;},2200);
+    });
+  }
+}
+
+function bootstrap(){if(!data.guides.length){document.body.append(el('p',null,'内容尚未构建，请运行 python scripts/build.py'));return;}initGuides();initScore();initClinic();initEconomy();initPlan();initCases();initIdeas();initBackup();initContact();}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bootstrap);else bootstrap();
 })();
